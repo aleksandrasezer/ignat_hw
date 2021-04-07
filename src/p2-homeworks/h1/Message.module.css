@@ -1,0 +1,64 @@
+.message {
+    display: grid;
+    grid-template-areas:
+    'e m'
+    'a m';
+    grid-template-rows: 1fr 80px;
+    grid-template-columns: 80px 1fr;
+}
+
+.message img {
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.emptyAboveAvatar {
+    grid-area: e;
+}
+
+.avatar {
+    grid-area: a;
+
+}
+
+.message_body_container {
+    grid-area: m;
+    padding: 15px;
+    width: 150px;
+    left: 0px;
+    bottom: 0px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+
+}
+
+.triangle {
+    position:absolute;
+    left: -22px;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    border-bottom: 22px solid black;
+    border-left: 22px solid transparent;
+}
+
+.name {
+    color: plum;
+    text-align: left
+}
+.messageText {
+    margin: 10px;
+    color: white;
+}
+.time {
+    color: gainsboro;
+    text-align: right;
+
+
+}
