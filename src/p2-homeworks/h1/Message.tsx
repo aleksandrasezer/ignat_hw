@@ -1,14 +1,14 @@
 import React from 'react'
 import s from './Message.module.css';
 
-export type MessageDataType = {
+export type MessagePropsType = {
     avatar: string
     name: string
     message: string
     time: string
 }
 
-function Message(props: MessageDataType) {
+function Message(props: MessagePropsType) {
     return (
         <div className={s.message}>
             <div className={s.emptyAboveAvatar}></div>
