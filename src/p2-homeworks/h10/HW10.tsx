@@ -1,5 +1,4 @@
 import React from "react";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 function HW10() {
     // useSelector, useDispatch
@@ -22,7 +21,7 @@ function HW10() {
                     <div>крутилка...</div>
                 ) : (
                     <div>
-                        <SuperButton onClick={setLoading}>set loading...</SuperButton>
+                        <button onClick={setLoading}>set loading...</button>
                     </div>
                 )
             }

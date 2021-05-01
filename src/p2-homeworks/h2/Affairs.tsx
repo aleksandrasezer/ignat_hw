@@ -28,10 +28,12 @@ function Affairs(props: AffairsPropsType) {
 
             {mappedAffairs}
 
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <div className={s.button}>
+            <button onClick={setAll}>ALL</button>
+            <button onClick={setHigh}>HIGH</button>
+            <button onClick={setMiddle}>MIDDLE</button>
+            <button onClick={setLow}>LOW</button>
+            </div>
         </div>
     )
 }

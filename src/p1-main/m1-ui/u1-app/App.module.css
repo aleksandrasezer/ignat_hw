@@ -1,3 +1,14 @@
 .App {
-
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.App input:checked {
+    background-color: mediumslateblue;
+}
+.errorPage {
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Comic Sans MS";
+    color: red;
+    font-size: xx-large;
 }

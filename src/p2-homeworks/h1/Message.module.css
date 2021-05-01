@@ -10,7 +10,7 @@
 .message img {
     height: 60px;
     width: 60px;
-    border: 2px solid black;
+    border: 2px solid mediumslateblue;
     margin: 10px;
     border-radius: 50%;
 }
@@ -21,16 +21,15 @@
 
 .avatar {
     grid-area: a;
-
 }
 
 .message_body_container {
     grid-area: m;
     padding: 15px;
-    width: 150px;
+    width: 200px;
     left: 0px;
     bottom: 0px;
-    background-color: black;
+    background-color: darkslateblue;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -44,7 +43,7 @@
     bottom: 0;
     width: 0px;
     height: 0px;
-    border-bottom: 22px solid black;
+    border-bottom: 22px solid darkslateblue;
     border-left: 22px solid transparent;
 }
 

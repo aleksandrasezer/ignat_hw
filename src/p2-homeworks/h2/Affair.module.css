@@ -8,3 +8,30 @@
     margin-right: 20px;
     width: 100px;
 }
+.affair {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-bottom: 5px;
+}
+.affair button {
+    padding: 7px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color:white;
+    border-bottom: 2px solid darkslateblue;
+    border-right: 2px solid darkslateblue;
+    border-top: 2px solid lightsteelblue;
+    border-left: 2px solid lightsteelblue;
+}
+.affair button:active {
+    padding: 7px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color:white;
+    border-top: 2px solid darkslateblue;
+    border-left: 2px solid darkslateblue;
+    border-bottom: 2px solid lightsteelblue;
+    border-right: 2px solid lightsteelblue;
+}

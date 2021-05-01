@@ -1,6 +1,5 @@
 import React, {ChangeEvent, useState} from 'react'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
-import s from './HW4.module.css'
 import SuperButton from './common/c2-SuperButton/SuperButton'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
@@ -12,7 +11,7 @@ function HW4() {
         if (error) {
             alert('введите текст...')
         } else {
-            alert(text) // если нет ошибки показать текст
+            alert(text)
         }
     }
 
@@ -22,37 +21,31 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
 
-            <div className={s.column}>
+            <div>
                 <SuperInputText
                     value={text}
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // spanClassName={s.testSpanError}
                 />
-
-                <SuperInputText
-                    className={s.blue} // проверьте, рабоет ли смешивание классов
-                />
+                <br/><br/>
 
                 {/*----------------------------------------------------*/}
-
                 <SuperButton>
                     default
                 </SuperButton>
-
                 <SuperButton
-                    red // пропсу с булевым значением не обязательно указывать true
+                    red={true}
                     onClick={showAlert}
                 >
-                    delete {/*// название кнопки попадёт в children*/}
+                    alert
                 </SuperButton>
 
                 <SuperButton disabled>
                     disabled
                 </SuperButton>
+                <br/><br/>
 
                 {/*----------------------------------------------------*/}
 
@@ -60,10 +53,9 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    i've cried today
                 </SuperCheckbox>
 
-                {/*// onChange тоже должен работать*/}
                 <SuperCheckbox checked={checked} onChange={testOnChange}/>
             </div>
 

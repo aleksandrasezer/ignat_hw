@@ -1,15 +1,47 @@
-.someClass {
-
-}
-
-.error {
-    border: 1px solid red;
-}
-
 .errorInput {
-    border: 2px solid purple;
+    border-left: 2px solid lightcoral;
+    border-top: 2px solid lightcoral;
+    border-bottom: 2px solid darkred;
+    border-right: 2px solid darkred;
+    background-color: indianred;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
 }
-
 .input {
-    border: 2px solid green;
+    height: 21px;
+    width: 150px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    border-left: 2px solid yellowgreen;
+    border-top: 2px solid yellowgreen;
+    border-bottom: 2px solid darkolivegreen;
+    border-right: 2px solid darkolivegreen;
+}
+.button {
+    padding: 7px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color:white;
+    border-bottom: 2px solid darkslateblue;
+    border-right: 2px solid darkslateblue;
+    border-top: 2px solid lightsteelblue;
+    border-left: 2px solid lightsteelblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.button:active {
+    padding: 7px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color:white;
+    border-top: 2px solid darkslateblue;
+    border-left: 2px solid darkslateblue;
+    border-bottom: 2px solid lightsteelblue;
+    border-right: 2px solid lightsteelblue;
+}
+.totalUsers {
+    margin-right: 10px;
 }
