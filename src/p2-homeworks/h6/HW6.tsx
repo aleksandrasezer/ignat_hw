@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
 import {restoreState, saveState} from './localStorage/localStorage'
+import s from './common/c4-SuperEditableSpan/SuperEditableSpan.module.css'
 
 function HW6() {
     const [value, setValue] = useState<string>('')
@@ -9,15 +10,14 @@ function HW6() {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+        setValue(restoreState<string>('editable-span-value', value))
     }
 
     return (
         <div>
             <hr/>
-            homeworks 6
+            6
 
-            {/*should work (должно работать)*/}
             <div>
                 <SuperEditableSpan
                     value={value}
@@ -25,12 +25,10 @@ function HW6() {
                     spanProps={{children: value ? undefined : 'enter text...'}}
                 />
             </div>
-            <button onClick={save}>save</button>
-            <button onClick={restore}>restore</button>
+            <button className={s.default} onClick={save}>save</button>
+            <button className={s.default} onClick={restore}>restore</button>
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
             <hr/>
         </div>
     )

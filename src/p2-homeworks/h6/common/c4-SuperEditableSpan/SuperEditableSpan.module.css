@@ -1,0 +1,44 @@
+.editableSpan {
+    font-size: large;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: lightsteelblue;
+    display: inline-block;
+}
+
+.SuperInputClassname input:focus {
+    font-size: large;
+    outline: none !important;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.default {
+    padding: 3px;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color: white;
+    border-bottom: 2px solid darkslateblue;
+    border-right: 2px solid darkslateblue;
+    border-top: 2px solid lightsteelblue;
+    border-left: 2px solid lightsteelblue;
+}
+
+.default:active {
+    padding: 3px;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color: white;
+    border-top: 2px solid darkslateblue;
+    border-left: 2px solid darkslateblue;
+    border-bottom: 2px solid lightsteelblue;
+    border-right: 2px solid lightsteelblue;
+}
+
+.default:disabled {
+    background-color: lightgrey;
+    color: slategray;
+}
