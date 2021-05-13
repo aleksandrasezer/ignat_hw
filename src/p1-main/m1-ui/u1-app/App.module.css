@@ -5,6 +5,26 @@
 .App input:checked {
     background-color: mediumslateblue;
 }
+.App select {
+    padding: 10px;
+    border: 2px solid midnightblue;
+    margin: 10px;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.App select > option {
+    background-color: darkslateblue;
+    border-radius: 5px;
+}
+.App select:hover {
+    background-color: lightsteelblue;
+}
+.App select > option:hover {
+    background-color: lightsteelblue;
+}
 .errorPage {
     text-align: center;
     margin-top: 150px;
