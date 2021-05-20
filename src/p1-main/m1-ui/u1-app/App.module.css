@@ -32,3 +32,38 @@
     color: red;
     font-size: xx-large;
 }
+.peopleForHW8 {
+    display: grid;
+    grid-template-columns: 120px 100px;
+}
+.buttonsHW8 button {
+    padding: 7px;
+    border-radius: 10px;
+    font-family: "Comic Sans MS";
+    background-color: mediumslateblue;
+    color:white;
+    border-bottom: 2px solid darkslateblue;
+    border-right: 2px solid darkslateblue;
+    border-top: 2px solid lightsteelblue;
+    border-left: 2px solid lightsteelblue;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.buttonsHW8 button:active {
+    border-top: 2px solid darkslateblue;
+    border-left: 2px solid darkslateblue;
+    border-bottom: 2px solid lightsteelblue;
+    border-right: 2px solid lightsteelblue;
+}
+.HW8container {
+    line-height: 1.5em;
+    font-size: large;
+    background-color: midnightblue;
+    color: lightsteelblue;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    min-height: 170px;
+    padding: 10px;
+    margin-left: 50px;
+}
