@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import s from '../../p1-main/m1-ui/u1-app/App.module.css'
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
@@ -7,43 +8,47 @@ function Clock() {
     const [show, setShow] = useState<boolean>(false)
 
     const stop = () => {
-        // stop
+        clearInterval(timerId)
     }
     const start = () => {
         stop()
-        const id: number = window.setInterval(() => {
-            // setDate
-        }, 1000)
+        const id: number = +window.setInterval(() =>
+                setDate(new Date())
+            , 1000)
         setTimerId(id)
     }
 
     const onMouseEnter = () => {
-        // show
+        setShow(true)
     }
     const onMouseLeave = () => {
-        // close
+        setShow(false)
     }
 
-    const stringTime = 'Time' // fix with date
-    const stringDate = 'Date' // fix with date
+    const stringTime = date?.toLocaleTimeString()
+    const stringDate = date?.toLocaleDateString()
 
     return (
         <div>
-            <div
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
-            >
-                {stringTime}
+            <div className={s.HW9container}>
+                <div
+                    onMouseEnter={onMouseEnter}
+                    onMouseLeave={onMouseLeave}
+                >
+                    {stringTime}
+                </div>
+
+                {show && (
+                    <div>
+                        {stringDate}
+                    </div>
+                )}
             </div>
 
-            {show && (
-                <div>
-                    {stringDate}
-                </div>
-            )}
-
-            <button onClick={start}>start</button>
-            <button onClick={stop}>stop</button>
+            <div className={s.HW9buttons}>
+            <SuperButton onClick={start}>start</SuperButton>
+            <SuperButton onClick={stop}>stop</SuperButton>
+            </div>
 
         </div>
     )

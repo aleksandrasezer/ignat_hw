@@ -28,7 +28,7 @@
 .errorPage {
     text-align: center;
     margin-top: 150px;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", sans-serif;
     color: red;
     font-size: xx-large;
 }
@@ -39,7 +39,7 @@
 .buttonsHW8 button {
     padding: 7px;
     border-radius: 10px;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", sans-serif;
     background-color: mediumslateblue;
     color:white;
     border-bottom: 2px solid darkslateblue;
@@ -67,3 +67,21 @@
     padding: 10px;
     margin-left: 50px;
 }
+.HW9container {
+    line-height: 1.5em;
+    font-size: large;
+    background-color: midnightblue;
+    color: lightsteelblue;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    min-height: 70px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.HW9buttons button {
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
