@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ignat_hw/static/css/main.58cb0b37.chunk.css",
+    "main.css": "/ignat_hw/static/css/main.a230eed3.chunk.css",
     "main.js": "/ignat_hw/static/js/main.708c6525.chunk.js",
     "main.js.map": "/ignat_hw/static/js/main.708c6525.chunk.js.map",
     "runtime-main.js": "/ignat_hw/static/js/runtime-main.e55a3367.js",
@@ -8,14 +8,14 @@
     "static/js/2.ad6d5995.chunk.js": "/ignat_hw/static/js/2.ad6d5995.chunk.js",
     "static/js/2.ad6d5995.chunk.js.map": "/ignat_hw/static/js/2.ad6d5995.chunk.js.map",
     "index.html": "/ignat_hw/index.html",
-    "static/css/main.58cb0b37.chunk.css.map": "/ignat_hw/static/css/main.58cb0b37.chunk.css.map",
+    "static/css/main.a230eed3.chunk.css.map": "/ignat_hw/static/css/main.a230eed3.chunk.css.map",
     "static/js/2.ad6d5995.chunk.js.LICENSE.txt": "/ignat_hw/static/js/2.ad6d5995.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ignat_hw/static/media/unicorn_pug.17c1bc48.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e55a3367.js",
     "static/js/2.ad6d5995.chunk.js",
-    "static/css/main.58cb0b37.chunk.css",
+    "static/css/main.a230eed3.chunk.css",
     "static/js/main.708c6525.chunk.js"
   ]
 }
