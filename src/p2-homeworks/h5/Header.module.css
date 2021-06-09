@@ -1,6 +1,7 @@
 .dropdown {
     display: inline-block;
     position: relative;
+    height: 30px;
 }
 .dropdown button {
     height: 20px;
