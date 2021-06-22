@@ -1,8 +1,6 @@
 import React from "react";
 import s from "./HW12.module.css";
 
-const themes = ['dark', 'red', 'some'];
-
 function HW12() {
     const theme = 'some'; // useSelector
 
