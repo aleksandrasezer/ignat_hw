@@ -5,7 +5,8 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('images/unicorn_pug.png');
+    height: 100%;
+    margin: 0;
 }
 
 code {

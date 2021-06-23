@@ -1,7 +1,21 @@
-.App {
-    margin-top: 15px;
-    margin-left: 15px;
+.AppLight {
+    padding-top: 15px;
+    padding-left: 15px;
+    background-image: url('../../../images/unicorn_pug.png');
+    background-color: papayawhip;
+    min-height: 100vh;
 }
+
+.AppDark {
+    padding-top: 15px;
+    padding-left: 15px;
+    background-image: url('../../../images/rainforest.png');
+    background-color: darkgreen;
+    background-repeat: repeat;
+    min-height: 100vh;
+    color: white;
+}
+
 .App input:checked {
     background-color: mediumslateblue;
 }
